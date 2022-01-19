@@ -28,7 +28,7 @@ let menuData = [
     },
     {
         title:'購物車',
-        url:'Store.html'
+        url:'store.html'
     },
 ];
 
