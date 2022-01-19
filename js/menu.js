@@ -37,9 +37,7 @@ menuHtml = menuHtml + `<li class="nav-item px-lg-4"><a class="nav-link text-uppe
  */
 menuHtml = ''; //不可重複宣告
 for (let row of menuData){
-    menuHtml +=`<li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="${row.url}">${row.title}</a></li>\n`;
-
-    console.log(menuHtml);
+    menuHtml +=`<li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="${row.url}">${row.title}</a></li>`;
 
 } //在重音符號裡才能用${}?
 menu.innerHTML = menuHtml;//將HTML寫入節點
